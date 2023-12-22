@@ -1,0 +1,45 @@
+h1 {font-family: 'Pacifico', cursive; 
+font-size: 50px; 
+position:relative;
+z-index: 555;
+}  
+h4 {font-family: 'Righteous', sans-serif; 
+    background-image: linear-gradient(90deg, rgba(50,176,86,1) 11%, rgba(176,171,74,1) 77%);
+    -webkit-text-fill-color: transparent;
+      -webkit-background-clip : text ;
+}  
+ .justify-content-center   i{background-image:linear-gradient(90deg, rgba(50,176,86,1) 11%, rgba(176,171,74,1) 77%) ;
+    -webkit-background-clip:text;
+-webkit-text-fill-color: transparent;}
+    
+body {background-color: #F7ECDE;}
+.btn {background-color: #da512b; }
+.btn:hover {background-color: #BB4120; 
+}
+.container-1 {border-top: rgba(0, 0, 0, 0.604); 
+border-style: dotted; 
+border-left: #F7ECDE;
+border-right: #F7ECDE; 
+} 
+h1::before { content: "";
+    position: absolute;
+    
+    background-color: #FEC260; 
+width: 20%; 
+height: 40%; 
+left: 40%; 
+top: 60%; 
+z-index: -1; 
+} 
+h1:hover::before {height: 60% ; 
+transition-duration: 0.3s;}
+
+   .btn1 {color: white; 
+background-color: #b5c75b;}
+.btn1:hover{background-color: #8A9E23; 
+}
+.btn2 {background-color: #e74053; 
+color: white;}
+.btn2:hover{background-color: #ef2d44;}
+ 
+ 
